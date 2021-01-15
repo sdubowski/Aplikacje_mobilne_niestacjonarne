@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6B29C"
+    tools:context=".ScheduleActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relationship"
+        android:layout_marginBottom="5dp"
+        android:hint="Age"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/age"
+        android:layout_marginBottom="4dp"
+        android:hint="Last name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/relationship"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="324dp"
+        android:hint="Relationship"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lastName"
+        android:layout_marginBottom="5dp"
+        android:hint="First name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/savePerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="274dp"
+        android:text="Save"
+        app:backgroundTint="#08F8A8AF"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <ListView
+        android:id="@+id/personList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relationship"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="100dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/faceRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-266dp"
+        android:layout_marginBottom="0dp"
+        tools:listitem="@layout/face_row" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_above="@+id/firstName"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Remember everyone!"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        app:autoSizeMaxTextSize="20px" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="menu_title">Keep it up!</string>
+    <string name="add_task">Add a task</string>
+    <string name="face">Add a familiar face</string>
+    <string name="schedule">Schedule</string>
+    <string name="select_date">Select a date</string>
+    <string name="choose_time">Choose a time</string>
+    <string name="notes_label">Add notes</string>
+    <string name="selectedDate" />
+</resources>
