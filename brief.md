@@ -2,10 +2,8 @@
 ## 1. Opis i cel aplikacji
 Aplikacja ma na celu pomóc osobom z zaburzeniami pamięci krótkotrwałej w planowaniu i organizacji
 dnia. Użytkownik będzie mógł wpisywać zadania na dany dzień np. zrobienie zakupów (wraz z listą
-produktów do kupienia w postaci notatki), wizyty u fryzjera, jak również cyklicznych zadań np.
-odebranie dzieci ze szkoły. Wszystkie zadania będą dostępne do wglądu w postaci harmonogramu.
-Dodatkowo aplikacja będzie udostępniać opcję zapisania imion i nazwisk wraz z możliwością wgrania
-zdjęcia osób które użytkownik chce zapamiętać.
+produktów do kupienia w postaci notatki), wizyty u fryzjera. Wszystkie zadania będą dostępne do wglądu w postaci listy.
+Dodatkowo aplikacja będzie udostępniać opcję zapisania imion, nazwisk, wieku i relacji wraz z osobami które użytkownik chce zapamiętać.
 ## 2. Grupa docelowa
 Głównymi odbiorcami są osoby z zaburzeniami pamięci krótkotrwałej. Jednak aplikacja jest
 kierowana również do osób które chcą lepiej planować swój dzień.
