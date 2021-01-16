@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6B29C">
+
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="157dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="482dp"
+        android:text="Select a date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/choose_time"
+        android:layout_width="157dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="379dp"
+        android:text="@string/choose_time"
+        app:backgroundTint="#58719C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/select_date"
+        android:layout_width="157dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="468dp"
+        android:text="@string/select_date"
+        app:backgroundTint="#58719C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="157dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="397dp"
+        android:text="Choose a time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="356dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="571dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/task_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Title" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="331dp"
+        android:layout_marginBottom="227dp"
+        android:clickable="true"
+        app:backgroundTint="#58719C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <TextView
+        android:id="@+id/addNotesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="243dp"
+        android:text="@string/notes_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save_task_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="538dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="145dp"
+        android:text="Save"
+        app:backgroundTint="#58719C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
